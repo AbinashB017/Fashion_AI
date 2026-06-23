@@ -31,9 +31,21 @@ async def lifespan(app: FastAPI):
     print("Initializing Dare XAI Outfit Engine...")
     products = load_products(validate=False)
     outfits = load_outfits(validate=False)
-    embeddings, metadata = load_cached_embeddings()
+    try:
+        embeddings, metadata = load_cached_embeddings()
+    except FileNotFoundError:
+        print("[Setup] Embeddings not found. Generating them on the fly (this takes a minute)...")
+        from src.embeddings.fashion_clip import generate_product_embeddings
+        embeddings, metadata = generate_product_embeddings(products)
     faiss_idx = build_faiss_index(embeddings, metadata, products, save=False)
-    graph = load_graph()
+    
+    try:
+        graph = load_graph()
+    except FileNotFoundError:
+        print("[Setup] Graph not found. Building it on the fly...")
+        from src.graph.compatibility_graph import build_graph
+        graph = build_graph(products, outfits, save=False)
+        
     rag = load_rag(outfits)
     scorer = CompatibilityScorer(graph=graph, embeddings=embeddings, metadata=metadata)
     
