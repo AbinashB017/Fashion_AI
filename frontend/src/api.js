@@ -1,6 +1,9 @@
 import axios from 'axios';
 
-const API_BASE = 'http://localhost:8000/api';
+// Read from Vercel environment variable, fallback to localhost for local dev
+const API_BASE = import.meta.env.VITE_API_URL 
+  ? `${import.meta.env.VITE_API_URL}/api` 
+  : 'http://localhost:8000/api';
 
 export const chatOutfits = async (query, gender_pref = "Any") => {
   const response = await axios.post(`${API_BASE}/chat`, { query, gender_pref });
