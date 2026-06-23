@@ -1,0 +1,44 @@
+# Dare XAI Fashion AI System
+# Full production requirements
+
+# ── Core data ────────────────────────────────────────────────────────────────
+pandas>=2.0.0
+numpy>=1.24.0
+openpyxl>=3.1.0
+scipy>=1.10.0
+scikit-learn>=1.3.0
+
+# ── Visualisation ─────────────────────────────────────────────────────────────
+matplotlib>=3.7.0
+seaborn>=0.13.0
+pillow>=10.0.0
+
+# ── Graph ─────────────────────────────────────────────────────────────────────
+networkx>=3.2.0
+
+# ── Deep Learning (CPU) ───────────────────────────────────────────────────────
+torch>=2.0.0
+torchvision>=0.15.0
+
+# ── NLP / Embeddings ──────────────────────────────────────────────────────────
+transformers>=4.35.0
+accelerate>=0.24.0
+sentencepiece>=0.1.99
+sentence-transformers>=2.3.0
+safetensors>=0.4.0
+tokenizers>=0.15.0
+huggingface-hub>=0.20.0
+
+# ── Vector Search ─────────────────────────────────────────────────────────────
+faiss-cpu>=1.7.4
+
+# ── LLM / Gemini ─────────────────────────────────────────────────────────────
+google-generativeai>=0.5.0
+
+# ── Environment / Utilities ───────────────────────────────────────────────────
+python-dotenv>=1.0.0
+tqdm>=4.65.0
+requests>=2.31.0
+
+# ── UI ────────────────────────────────────────────────────────────────────────
+streamlit>=1.32.0

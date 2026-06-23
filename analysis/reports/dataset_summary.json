@@ -1,0 +1,61 @@
+{
+  "total_products": 68,
+  "total_outfits": 25,
+  "platforms": {
+    "myntra": 28,
+    "ajio": 28,
+    "nykaa": 12
+  },
+  "gender_split": {
+    "women": 41,
+    "men": 27
+  },
+  "wear_type_split": {
+    "western": 31,
+    "footwear": 17,
+    "accessory": 13,
+    "ethnic": 7
+  },
+  "unique_categories": 47,
+  "unique_occasions": 8,
+  "unique_brands": 64,
+  "price_stats": {
+    "min": 270.0,
+    "max": 7799.0,
+    "mean": 1518.1323529411766,
+    "median": 1082.0
+  },
+  "rating_stats": {
+    "min": 1.0,
+    "max": 5.0,
+    "mean": 3.9232558139534883
+  },
+  "missing_values": {
+    "id": 0,
+    "name": 0,
+    "brand": 0,
+    "price_inr": 0,
+    "rating": 25,
+    "rating_count": 42,
+    "gender": 0,
+    "wear_type": 0,
+    "category": 0,
+    "category_label": 0,
+    "occasion": 0,
+    "tags": 0,
+    "description": 0,
+    "description_source": 0,
+    "image": 0,
+    "site": 0,
+    "product_url": 0,
+    "collected_at": 0,
+    "tags_list": 0,
+    "image_path": 0,
+    "has_image": 0,
+    "platform": 0,
+    "rich_description": 0,
+    "embed_text": 0
+  },
+  "images_on_disk": 68,
+  "rich_descriptions": 40
+}

@@ -1,0 +1,263 @@
+{
+  "phase": "Phase 1 \u2014 Dataset Analysis",
+  "summary": {
+    "total_products": 68,
+    "total_outfits": 25,
+    "platforms": {
+      "myntra": 28,
+      "ajio": 28,
+      "nykaa": 12
+    },
+    "gender_split": {
+      "women": 41,
+      "men": 27
+    },
+    "wear_type_split": {
+      "western": 31,
+      "footwear": 17,
+      "accessory": 13,
+      "ethnic": 7
+    },
+    "unique_categories": 47,
+    "unique_occasions": 8,
+    "unique_brands": 64,
+    "price_stats": {
+      "min": 270.0,
+      "max": 7799.0,
+      "mean": 1518.1323529411766,
+      "median": 1082.0
+    },
+    "rating_stats": {
+      "min": 1.0,
+      "max": 5.0,
+      "mean": 3.9232558139534883
+    },
+    "missing_values": {
+      "id": 0,
+      "name": 0,
+      "brand": 0,
+      "price_inr": 0,
+      "rating": 25,
+      "rating_count": 42,
+      "gender": 0,
+      "wear_type": 0,
+      "category": 0,
+      "category_label": 0,
+      "occasion": 0,
+      "tags": 0,
+      "description": 0,
+      "description_source": 0,
+      "image": 0,
+      "site": 0,
+      "product_url": 0,
+      "collected_at": 0,
+      "tags_list": 0,
+      "image_path": 0,
+      "has_image": 0,
+      "platform": 0,
+      "rich_description": 0,
+      "embed_text": 0
+    },
+    "images_on_disk": 68,
+    "rich_descriptions": 40
+  },
+  "top_staple_items": [
+    {
+      "id": "myntra_24130018",
+      "name": "Sling Bag with Quilted",
+      "category": "handbags",
+      "occasions": "office",
+      "outfit_appearances": 4
+    },
+    {
+      "id": "ajio_4934125790",
+      "name": "Men Water-Resistant Analogue Watch-90200SL04",
+      "category": "watches",
+      "occasions": "office",
+      "outfit_appearances": 4
+    },
+    {
+      "id": "ajio_703187803",
+      "name": "Women Lace-Up Fastening Sneakers",
+      "category": "sneakers",
+      "occasions": "casual",
+      "outfit_appearances": 3
+    },
+    {
+      "id": "ajio_702546309",
+      "name": "ANIME - Men Baseball Caps",
+      "category": "caps",
+      "occasions": "sports",
+      "outfit_appearances": 3
+    },
+    {
+      "id": "myntra_15660676",
+      "name": "Sparkle Framed Clutch",
+      "category": "clutches",
+      "occasions": "party",
+      "outfit_appearances": 2
+    },
+    {
+      "id": "myntra_31751105",
+      "name": "Open Toe Kitten Heel Sandals",
+      "category": "heels",
+      "occasions": "party",
+      "outfit_appearances": 2
+    },
+    {
+      "id": "nykaa_24377703",
+      "name": "Women Malak Brown Solid Juttis",
+      "category": "ethnic footwear",
+      "occasions": "festive",
+      "outfit_appearances": 2
+    },
+    {
+      "id": "ajio_700825576",
+      "name": "Women Stone-Studded Necklace & Earrings Set",
+      "category": "necklaces",
+      "occasions": "wedding",
+      "outfit_appearances": 2
+    },
+    {
+      "id": "myntra_36090580",
+      "name": "Shopper Shoulder Bag",
+      "category": "handbags",
+      "occasions": "office",
+      "outfit_appearances": 2
+    },
+    {
+      "id": "myntra_41163758",
+      "name": "Women Straight Fit High-Rise Jeans",
+      "category": "jeans",
+      "occasions": "casual",
+      "outfit_appearances": 2
+    },
+    {
+      "id": "nykaa_22909654",
+      "name": "Brown UV Protection Oval Full Rim Casual Women Sunglass - VS 2301-Gold-BRN (40)",
+      "category": "sunglasses",
+      "occasions": "vacation",
+      "outfit_appearances": 2
+    },
+    {
+      "id": "ajio_702390240",
+      "name": "Women Slip-On Flat Sandals",
+      "category": "flats",
+      "occasions": "casual",
+      "outfit_appearances": 2
+    }
+  ],
+  "category_distribution": {
+    "ethnic footwear": 4,
+    "clutches": 4,
+    "heels": 4,
+    "party dresses": 3,
+    "formal shirts": 3,
+    "necklaces": 2,
+    "kurta sets": 2,
+    "trousers": 2,
+    "handbags": 2,
+    "watches": 2,
+    "boots": 2,
+    "jeans": 2,
+    "formal shoes": 2,
+    "sweatshirts": 1,
+    "track pants": 1,
+    "party shirts": 1,
+    "casual shirts": 1,
+    "running shoes": 1,
+    "sneakers": 1,
+    "sharara sets": 1,
+    "wedding sarees": 1,
+    "linen shirts": 1,
+    "sherwanis": 1,
+    "suits": 1,
+    "shorts": 1,
+    "nehru jackets": 1,
+    "skirts": 1,
+    "casual dresses": 1,
+    "chinos": 1,
+    "tshirts": 1,
+    "polo tshirts": 1,
+    "sweaters": 1,
+    "tops": 1,
+    "activewear": 1,
+    "denim jackets": 1,
+    "flats": 1,
+    "leggings": 1,
+    "co ord sets": 1,
+    "maxi dresses": 1,
+    "long coats": 1,
+    "salwar suits": 1,
+    "blazers": 1,
+    "earrings": 1,
+    "sunglasses": 1,
+    "loafers": 1,
+    "sandals": 1,
+    "caps": 1
+  },
+  "occasion_distribution": {
+    "casual": 15,
+    "party": 13,
+    "office": 12,
+    "festive": 9,
+    "wedding": 6,
+    "sports": 5,
+    "vacation": 4,
+    "winter": 4
+  },
+  "gender_distribution": {
+    "women": 41,
+    "men": 27
+  },
+  "wear_type_distribution": {
+    "western": 31,
+    "footwear": 17,
+    "accessory": 13,
+    "ethnic": 7
+  },
+  "palette_frequency": {
+    "red": 13,
+    "black": 12,
+    "brown": 10,
+    "white": 9,
+    "navy": 7,
+    "green": 6,
+    "olive": 5,
+    "grey": 4,
+    "cream": 4,
+    "blue": 4,
+    "maroon": 2,
+    "pink": 2,
+    "purple": 1,
+    "tan": 1,
+    "beige": 1
+  },
+  "outfit_slot_fill": {
+    "Hero": 25,
+    "Second": 13,
+    "Layer": 4,
+    "Footwear": 25,
+    "Accessory 1": 22,
+    "Accessory 2": 4
+  },
+  "outfit_occasion_distribution": {
+    "party": 6,
+    "casual": 5,
+    "festive": 4,
+    "wedding": 3,
+    "office": 2,
+    "vacation": 2,
+    "sports": 2,
+    "winter": 1
+  },
+  "charts_generated": [
+    "01_overview_dashboard.png",
+    "02_category_distribution.png",
+    "03_missing_values.png",
+    "04_palette_analysis.png",
+    "05_outfit_relationships.png",
+    "06_occasion_heatmap.png",
+    "07_price_by_category.png"
+  ]
+}
